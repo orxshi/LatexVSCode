@@ -8,3 +8,4 @@ Welcome to the LatexVSCode documentation.
    :caption: Contents:
 
    latex
+   latex_examples
