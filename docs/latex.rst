@@ -15,7 +15,11 @@ Latex has many packages. We will not install all the packages. If a package is r
 Adding LaTeX Workshop Extension to VS Code
 ------------------------------------------
 
+Search for "latex" in the VS Code extensions marketplace. Install the "LaTeX Workshop" extension by James Yu.
+
 .. image:: _static/vscodelw.png
    :alt: LaTeX Workshop Extension in VS Code
-   :width: 400px
+   :width: 300px
    :align: center
+
+Now you are ready to write LaTeX documents in VS Code.
