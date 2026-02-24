@@ -19,7 +19,7 @@ Search for "latex" in the VS Code extensions marketplace. Install the "LaTeX Wor
 
 .. image:: _static/vscodelw.png
    :alt: LaTeX Workshop Extension in VS Code
-   :width: 300px
+   :width: 500px
    :align: center
 
 Now you are ready to write LaTeX documents in VS Code.

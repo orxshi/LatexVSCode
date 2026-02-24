@@ -22,9 +22,9 @@ Copy and paste the following code into "document.tex":
 
    \end{document}
 
-Click the green "Build LaTeX project" button in the top right corner of VS Code. This will compile your LaTeX document and generate a PDF file named "document.pdf" in the same folder.
+Click the "Build LaTeX project" button in the top right corner of VS Code (shown with the red arrow). This will compile your LaTeX document and generate a PDF file named "document.pdf" in the same folder.
 
-.. image:: _static/vscodeplay.png
+.. image:: _static/vscodeplay1.png
    :alt: Build LaTeX Project Button in VS Code
    :width: 300px
    :align: center
