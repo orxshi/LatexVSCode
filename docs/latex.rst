@@ -17,5 +17,5 @@ Adding LaTeX Workshop Extension to VS Code
 
 .. image:: _static/vscodelw.png
    :alt: LaTeX Workshop Extension in VS Code
-   :width: 600px
+   :width: 400px
    :align: center
