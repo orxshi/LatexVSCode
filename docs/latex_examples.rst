@@ -11,22 +11,35 @@ Copy and paste the following code into "document.tex":
 
 .. code-block:: latex
 
-   \documentclass{article}   
+    \documentclass{article}   
 
-   \title{My Title}
-   \author{Your Name}   
+    \title{My Title}
+    \author{Your Name}   
 
-   \begin{document}
+    \begin{document}
 
-   \maketitle
+        \maketitle
 
-   \end{document}
+    \end{document}
 
-Click the "Build LaTeX project" button in the top right corner of VS Code (shown with the red arrow). This will compile your LaTeX document and generate a PDF file named "document.pdf" in the same folder.
+Click the **Build LaTeX project** button in the top right corner of VS Code (shown with the red arrow in the figure below). This will compile your LaTeX document and generate a PDF file named "document.pdf" in the same folder.
 
 .. image:: _static/vscodeplay1.png
    :alt: Build LaTeX Project Button in VS Code
-   :width: 300px
+   :width: 500px
    :align: center
 
-Click the "View LaTeX PDF" button that appears after building the project to open the generated PDF file.
+Notice the document.pdf and other files generated in the folder in the figure below.
+
+.. image:: _static/vscodeplay3.png
+   :alt: Generated PDF Files in VS Code
+   :width: 500px
+   :align: center
+
+Click the **View LaTeX PDF** button (shown with the red arrow in the figure below) that appears after building the project to view the generated PDF file.
+
+.. image:: _static/vscodeplay4.png
+   :alt: View LaTeX PDF Button in VS Code
+   :width: 500px
+   :align: center
+
