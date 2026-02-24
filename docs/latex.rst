@@ -1,21 +1,21 @@
-LaTeX Guide
+Preparing LaTeX
 ===========
 
-Latex had multiple distributions such as MikTex and TexLive. We will use MikTex as our distribution.
+LaTeX has multiple distributions such as MikTeX and TeX Live. We will use MikTeX.
 
-Installing MikTex on Windows
+Installing MikTeX on Windows
 ----------------------------
 
-1. Go to the MikTex website: https://miktex.org/download
+1. Go to the MikTeX website: https://miktex.org/download
 2. Click on the "Download" button for Windows.
 3. Choose the default "install on the fly" option during installation.
 
-Latex has many packages. We will not install all the packages. If a package is required later, MikTex will ask permission to install it.
+LaTeX has many packages but we will not install all of them. If a package is required later, MikTeX will ask permission to install it.
 
 Adding LaTeX Workshop Extension to VS Code
 ------------------------------------------
 
-Search for "latex" in the VS Code extensions marketplace. Install the "LaTeX Workshop" extension by James Yu.
+Search for "latex" in the VS Code extensions marketplace. Install the *LaTeX Workshop* extension by James Yu.
 
 .. image:: _static/vscodelw.png
    :alt: LaTeX Workshop Extension in VS Code
