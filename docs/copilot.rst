@@ -3,16 +3,18 @@ Using Copilot in VS Code
 
 Copilot is an AI-powered code completion tool developed by GitHub. It can assist you in writing code by providing suggestions and autocompletions based on the context of your code. Here's how to use Copilot in VS Code:
 
-1. Install the GitHub Copilot Extension:
-   - Open VS Code and go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-   - Search for "GitHub Copilot" and click on the "Install" button to install the extension.
+- Click on the ``Extensions`` icon on the side of the window
+- Search for ``Copilot`` and click on the "Install" button.
 
-2. Sign in to GitHub:
-    - After installing the extension, you will be prompted to sign in to your GitHub account. Follow the instructions to authenticate and grant the necessary permissions.
+... image:: _static/copilot_extension.png
+   :alt: GitHub Copilot Extension in VS Code
+   :width: 500px
+   :align: center
 
-3. Start Coding:
-    - Open a new file or an existing code file in VS Code.
-    - Start typing your code, and Copilot will provide suggestions and autocompletions as you type. You can accept the suggestions by pressing `Tab` or `Enter`.
+- You will be prompted to sign in to your GitHub account
+- Copilot will provide suggestions and autocompletions as you type. You can accept the suggestions by pressing `Tab` or `Enter`
+- You can also trigger Copilot suggestions manually by pressing `Ctrl + Space`
+- You can also chat with Copilot by opening the Copilot chat with `Ctrl + I`
 
 Why Use Copilot?
 ----------------
