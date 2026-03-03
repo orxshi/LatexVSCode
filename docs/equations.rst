@@ -26,7 +26,7 @@ To write a display equation, put the equation in ``equation`` environment as sho
 This will produce the following output:
 
 .. math::
-
+    :label: eq1
     a^2 + b^2 = c^2
 
 For multi-line equations, use the ``align`` environment as shown below:
@@ -41,7 +41,7 @@ For multi-line equations, use the ``align`` environment as shown below:
 This will produce the following output:
 
 .. math::
-
+    :label: eq2
     \begin{aligned}
         a^2 + b^2 &= c^2 \\
         x^2 + y^2 &= z^2
@@ -80,7 +80,7 @@ Display equations are numbered by default. The ``align`` environment will number
 This will produce the following output:
 
 .. math::
-
+    :label: eq3
     \begin{equation}
         \begin{aligned}
             a^2 + b^2 &= c^2 \\

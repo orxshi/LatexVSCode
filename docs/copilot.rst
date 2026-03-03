@@ -15,6 +15,8 @@ Copilot is an AI-powered code completion tool developed by GitHub. It can assist
 - Copilot will provide suggestions and autocompletions as you type. You can accept the suggestions by pressing `Tab` or `Enter`
 - You can also trigger Copilot suggestions manually by pressing `Ctrl + Space`
 - You can also chat with Copilot by opening the Copilot chat with `Ctrl + I`
+- Suggestions will also appear in the left gutter of the editor for a certain line. You can click on the suggestion in the gutter to accept it.
+- If the line is out of view, you can click on the suggestion in the gutter to scroll to the line and accept the suggestion.
 
 Why Use Copilot?
 ----------------
