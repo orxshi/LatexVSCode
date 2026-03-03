@@ -14,6 +14,7 @@ extensions = [
     'sphinx.ext.napoleon',      # Google/NumPy docstrings
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.mathjax',
 ]
 
 templates_path = ['_templates']

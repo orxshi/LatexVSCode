@@ -17,8 +17,8 @@ Copy and paste the following code into ``document.tex``:
 
     \documentclass{article}   
 
-    \title{My Title}
-    \author{Your Name}   
+    \title{Put Title Here}
+    \author{Put Your Name Here}   
 
     \begin{document}
 
@@ -33,7 +33,7 @@ Click the ``Build LaTeX project`` button in the top right corner of VS Code (sho
    :width: 500px
    :align: center
 
-Notice the pdf and other files generated in the folder in the figure below.
+Notice the PDF and other files generated in the folder in the figure below.
 
 .. image:: _static/vscodeplay3.png
    :alt: Generated PDF Files in VS Code

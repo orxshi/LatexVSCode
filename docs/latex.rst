@@ -1,5 +1,5 @@
 Preparing LaTeX
-===========
+===============
 
 LaTeX has multiple distributions such as MikTeX and TeX Live. We will use MikTeX.
 
