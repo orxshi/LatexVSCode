@@ -1,7 +1,7 @@
 Typing Equations in LaTeX
 ==========================
 
-There are two types of equations in LaTeX: inline and display. Inline equations are written within a line of text, while display equations are centered on a new line.
+There are two types of equations in LaTeX: Inline and display. Inline equations are written within a line of text, while display equations are centered on a new line.
 
 There are multiple ways of typing equations in LaTeX but only some of them will be shown here.
 
@@ -24,6 +24,7 @@ To write a display equation, put the equation in ``equation`` environment as sho
     \end{equation}
 
 This will produce the following output:
+
 .. math::
 
     a^2 + b^2 = c^2
@@ -37,6 +38,7 @@ For multi-line equations, use the ``align`` environment as shown below:
     \end{align}
 
 This will produce the following output:
+
 .. math::
 
     \begin{aligned}
@@ -73,6 +75,7 @@ Display equations are numbered by default. The ``align`` environment will number
     \end{equation}
 
 This will produce the following output:
+
 .. math::
 
     \begin{equation}
