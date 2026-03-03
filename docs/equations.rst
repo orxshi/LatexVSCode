@@ -30,6 +30,7 @@ This will produce the following output:
     a^2 + b^2 = c^2
 
 For multi-line equations, use the ``align`` environment as shown below:
+
 .. code-block:: latex
 
     \begin{align}
@@ -47,6 +48,7 @@ This will produce the following output:
     \end{aligned}
 
 To use the ``align`` environment, you need to include the ``amsmath`` package in the preamble of your LaTeX document. Here is a complete example:
+
 .. code-block:: latex
 
     \documentclass{article}
@@ -65,6 +67,7 @@ To use the ``align`` environment, you need to include the ``amsmath`` package in
 Beware not to put blank line between the parapraph and the equation/align environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
 
 Display equations are numbered by default. The ``align`` environment will number each line of a multi-line equation. One of the ways to give only one equation number to a multi-line equation is to use the ``aligned`` environment inside the ``equation`` environment as shown below:
+
 .. code-block:: latex
 
     \begin{equation}
@@ -89,6 +92,7 @@ Un-numbered Equations
 ---------------------
 
 To write an un-numbered equation, use the ``equation*`` or ``align*`` environment as shown below:
+
 .. code-block:: latex
 
     \begin{equation*}
@@ -99,6 +103,7 @@ Shorter Ways of Writing Equations
 ---------------------------------
 
 There are shorter ways of writing equations in LaTeX such as using double dollar signs ``$$`` for display equations. Here is an example:
+
 .. code-block:: latex
 
     $$
@@ -106,12 +111,14 @@ There are shorter ways of writing equations in LaTeX such as using double dollar
     $$
 
 There is one more way of writing display equations using the \[ and \] symbols as shown below:
+
 .. code-block:: latex
     \[
         a^2 + b^2 = c^2
     \]
 
 For inline equations, you can also use the \(...\) symbols as shown below:
+
 .. code-block:: latex
 
     Bla bla bla \( a^2 + b^2 = c^2 \).
@@ -170,6 +177,7 @@ Matrices
 ^^^^^^^^
 
 Use the ``\begin{matrix}`` and ``\end{matrix}`` commands to write matrices. The syntax is as follows:
+
 .. code-block:: latex
 
     \begin{matrix}
