@@ -2,7 +2,7 @@ This tutorial is designed for bachelor students who wants to use VSCode, Copilot
 
 Whole tutorial will be demonstrated on Windows 10 virtual machine.
 
-- (VSCode settings)[vscodesettings.md]
+- [VSCode settings](vscodesettings.md)
 
 Here is a list of topics:
 - Installing VSCode
