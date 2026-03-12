@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Typing equations with LaTeX
 
 There are two types of equations in LaTeX: Inline and display. Inline equations are written within a line of text, while display equations are centered on a new line.
@@ -7,7 +12,7 @@ There are multiple ways of typing equations in LaTeX but only some of them will 
 Put the inline equation between two dollar signs `$`. For example, the code
 
 ```
-    Bla bla bla $a^2 + b^2 = c^2$.
+Bla bla bla $a^2 + b^2 = c^2$.
 ```
 
 will produce the following output:
