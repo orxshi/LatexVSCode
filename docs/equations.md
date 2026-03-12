@@ -6,21 +6,21 @@ There are multiple ways of typing equations in LaTeX but only some of them will 
 
 Put the inline equation between two dollar signs `$`. For example, the code
 
-$$
+```
     Bla bla bla $a^2 + b^2 = c^2$.
-$$
+```
 
 will produce the following output:
 
 Bla bla bla $a^2 + b^2 = c^2$.
 
-To write a display equation, put the equation in ``equation`` environment as shown below:
+To write a display equation, put the equation in `equation` environment as shown below:
 
-.. code-block:: latex
-
+```
     \begin{equation}
         a^2 + b^2 = c^2
     \end{equation}
+```
 
 This will produce the following output:
 
@@ -28,14 +28,14 @@ This will produce the following output:
     :label: eq1
     a^2 + b^2 = c^2
 
-For multi-line equations, use the ``align`` environment as shown below:
+For multi-line equations, use the `align` environment as shown below:
 
-.. code-block:: latex
-
+```
     \begin{align}
         a^2 + b^2 &= c^2 \\
         x^2 + y^2 &= z^2
     \end{align}
+```
 
 This will produce the following output:
 
