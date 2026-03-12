@@ -56,7 +56,7 @@ To use the ``align`` environment, you need to include the ``amsmath`` package in
 
     \begin{document}
 
-        Now we can write multi-line equations using the ``align`` environment:
+        Now we can write multi-line equations using the align environment:
         \begin{align}
             a^2 + b^2 &= c^2 \\
             x^2 + y^2 &= z^2
@@ -64,7 +64,7 @@ To use the ``align`` environment, you need to include the ``amsmath`` package in
 
     \end{document}
 
-Beware not to put blank line between the parapraph and the equation/align environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
+Beware not to put blank line between the paragraph and the equation/align environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
 
 Display equations are numbered by default. The ``align`` environment will number each line of a multi-line equation. One of the ways to give only one equation number to a multi-line equation is to use the ``aligned`` environment inside the ``equation`` environment as shown below:
 

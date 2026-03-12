@@ -1,0 +1,1 @@
+This tutorial is designed for bachelor students who wants to use VSCode, Copilot, and Latex to prepare lectures notes, assignments, and projects.

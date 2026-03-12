@@ -17,6 +17,7 @@ Copilot is an AI-powered code completion tool developed by GitHub. It can assist
 - You can also chat with Copilot by opening the Copilot chat with `Ctrl + I`
 - Suggestions will also appear in the left gutter of the editor for a certain line. You can click on the suggestion in the gutter to accept it.
 - If the line is out of view, you can click on the suggestion in the gutter to scroll to the line and accept the suggestion.
+- Suggestions may also appear under a certain word in different colors. Green means additional code, blue means replacement code, and red means deletion of code. You can click on the suggestion to accept it.
 
 Why Use Copilot?
 ----------------
