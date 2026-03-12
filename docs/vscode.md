@@ -10,7 +10,7 @@ In VSCode, click on the Extensions icon on the left sidebar (or press `ctrl-shif
 
 In order to prevent editor (VSCode) suggestions getting in the way of Copilot suggestions, we will turn off editor suggestions.
 
-In VSCode, type `ctrl-shift-p`, type *user settings*, click *Preferences: Open User Settings (Json)*. This will open the `settings.json` file. Paste the following lines into the file and save it.
+In VSCode, type `ctrl-shift-p`, type *user settings*, click **Preferences: Open User Settings (Json)**. This will open the `settings.json` file. Paste the following lines into the file and save it.
 
 ```
 {

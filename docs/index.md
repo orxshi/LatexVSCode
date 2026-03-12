@@ -4,6 +4,8 @@ Whole tutorial will be demonstrated on Windows 10 virtual machine.
 
 - [VSCode installation and settings](vscode.md)
 - [MikTeX installation](miktex.md)
+- [Minimal LaTeX document](latexnaked.md)
+- [Typing equations with LaTeX](equations.md)
 
 
 Here is a list of topics:
