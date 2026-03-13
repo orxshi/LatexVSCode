@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Homee
 nav_order: 1
 description: "The home page"
 ---
