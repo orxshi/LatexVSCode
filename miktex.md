@@ -1,3 +1,10 @@
+---
+layout: default
+title: MikTeX installation and settings
+nav_order: 3
+description: "MikTeX installation and settings"
+---
+
 # MikTeX installation
 
 Go to [MikTeX website](https://miktex.org/download) and download the installer for Windows. Run the installer and follow the instructions to install MikTeX on your computer.

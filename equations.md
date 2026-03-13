@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Equations
+title: Typing Equations with LaTeX
+nav_order: 5
+description: "Typing equations with LaTeX"
 ---
 
 # Typing equations with LaTeX

@@ -1,3 +1,10 @@
+---
+layout: default
+title: VSCode installation and settings
+nav_order: 2
+description: "VSCode installation and settings"
+---
+
 # VSCode installation
 
 Go to [VSCode website](https://code.visualstudio.com/) and download the installer for Windows. Run the installer and follow the instructions to install VSCode on your computer.

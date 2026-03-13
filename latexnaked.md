@@ -1,3 +1,10 @@
+---
+layout: default
+title: Minimal LaTeX Document
+nav_order: 4
+description: "Creating a minimal LaTeX document"
+---
+
 # Minimal LaTeX Document
 
 In this section, we will create a minimal LaTeX document and compile it to generate a PDF file.
