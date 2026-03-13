@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Equations
 ---
 
 # Typing equations with LaTeX
