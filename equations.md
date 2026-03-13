@@ -31,9 +31,9 @@ To write a display equation, put the equation in `equation` environment as shown
 
 This will produce the following output:
 
-$$
+\begin{equation}
     a^2 + b^2 = c^2
-$$
+\end{equation}
 
 For multi-line equations, use the `align` environment as shown below:
 
@@ -46,12 +46,10 @@ For multi-line equations, use the `align` environment as shown below:
 
 This will produce the following output:
 
-$$
-    \begin{aligned}
-        a^2 + b^2 &= c^2 \\
-        x^2 + y^2 &= z^2
-    \end{aligned}
-$$
+\begin{aligned}
+    a^2 + b^2 &= c^2 \\
+    x^2 + y^2 &= z^2
+\end{aligned}
 
 To use the ``align`` environment, you need to include the ``amsmath`` package in the preamble of your LaTeX document. Here is a complete example:
 
