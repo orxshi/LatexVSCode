@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Typing equations with LaTeX
+# TTyping equations with LaTeX
 
 There are two types of equations in LaTeX: Inline and display. Inline equations are written within a line of text, while display equations are centered on a new line.
 
