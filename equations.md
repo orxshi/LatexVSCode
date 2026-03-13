@@ -99,7 +99,7 @@ $$
 
 ## Un-numbered Equations
 
-To write an un-numbered equation, use the ``equation*`` or ``align*`` environment as shown below:
+To write an un-numbered equation, use the starred ``equation*`` environment as shown below:
 
 ```
 \begin{equation*}
