@@ -4,18 +4,18 @@ In this section, we will create a minimal LaTeX document and compile it to gener
 
 - Make a folder named ``tutorial`` anywhere on your computer
 - Open VSCode
-- Go to File - Open Folder and select the ``tutorial`` folder you just created
-- Create a new file named ``document.tex`` in the folder (see figure below).
+- Go to File - Open Folder and select the ``tutorial`` folder you just created or drag and drop the folder into VSCode
+- Create a new file named ``document.tex`` in the folder by clicking the button shown with red arrow in the figure below
 
-![Creating a new file in VS Code](images/vscodefile.png)
+![Creating a new file in VSCode](images/vscodefile.png)
 
 Copy and paste the following code into ``document.tex``:
 
 ```
     \documentclass{article}
 
-    \title{Put Title Here}
-    \author{Put Your Name Here}   
+    \title{My Title}
+    \author{Your Name}
 
     \begin{document}
 
