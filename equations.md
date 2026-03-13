@@ -47,7 +47,7 @@ The `\label` command is optional but it is useful for referencing the equation l
 The Pythagorean theorem is given by equation \ref{eq:pythagorean}.
 ```
 
-This will produce the following output: $The Pythagorean theorem is given by equation \ref{eq:pythagorean}$.
+Keep in mind that the `\label` command does not accept numbers as the first character of the label name. For example, `\label{1st_equation}` will produce an error because the label name starts with a number. You can use `\label{eq:1st_equation}` instead to avoid the error.
 
 ## Multi-line Equations
 
