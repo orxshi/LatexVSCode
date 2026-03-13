@@ -52,7 +52,7 @@ This will produce the following output:
 
 \begin{equation}
     \begin{aligned}
-        a^2 + b^2 &= c^2 \\
+        a^2 + b^2 &= c^2 \\\\
         x^2 + y^2 &= z^2
     \end{aligned}
 \end{equation}
