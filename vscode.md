@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VSCode installation and settings
+title: VSCode installation
 nav_order: 2
 description: "VSCode installation and settings"
 ---

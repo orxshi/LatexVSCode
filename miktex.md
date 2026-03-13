@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MikTeX installation and settings
+title: MikTeX installation
 nav_order: 3
 description: "MikTeX installation and settings"
 ---
