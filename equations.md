@@ -32,10 +32,24 @@ To write a display equation, put the equation in `equation` environment as shown
 This will produce the following output:
 
 $$
+    \label{eq:pythagorean}
     \begin{equation}
         a^2 + b^2 = c^2
     \end{equation}
 $$
+
+Notice the equation number on the right side of the equation. Numbering is automatic and LaTeX will do the bookkeeping.
+
+The `\label` command is optional but it is useful for referencing the equation later in the text. You can give any name to the label but it is a good practice to use a prefix such as `eq:` to indicate that this label is for an equation. Use `\ref` command to refer to the equation. For example,
+
+
+```
+The Pythagorean theorem is given by equation \ref{eq:pythagorean}.
+```
+
+This will produce the following output: $The Pythagorean theorem is given by equation \ref{eq:pythagorean}$.
+
+## Multi-line Equations
 
 For multi-line equations, use the `equation` environment with `aligned` environment inside it as shown below:
 
