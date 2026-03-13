@@ -25,9 +25,7 @@ Copy and paste the following code into ``document.tex``:
     \author{Your Name}
 
     \begin{document}
-
         \maketitle
-
     \end{document}
 ```
 
