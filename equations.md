@@ -37,29 +37,7 @@ $$
     \end{equation}
 $$
 
-For multi-line equations, use the `align` environment. However, put `\usepackage{amsmath}` in the preamble of your LaTeX document to use the `align` environment:
-
-```
-\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-    \begin{align}
-        a^2 + b^2 &= c^2 \\
-        x^2 + y^2 &= z^2
-    \end{align}
-\end{document}
-```
-
-This will produce the following output:
-
-$$
-    \begin{align}
-        a^2 + b^2 &= c^2 \\
-        x^2 + y^2 &= z^2
-    \end{align}
-$$
-
-Another way of writing multi-line equations is to use the `equation` environment with `aligned` environment inside it as shown below:
+For multi-line equations, use the `equation` environment with `aligned` environment inside it as shown below:
 
 ```
 \begin{equation}
@@ -70,9 +48,18 @@ Another way of writing multi-line equations is to use the `equation` environment
 \end{equation}
 ```
 
-This way does not require the `amsmath` package.
+This will produce the following output:
 
-Beware not to put blank line between the paragraph and the equation/align environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
+$$
+    \begin{equation}
+        \begin{aligned}
+            a^2 + b^2 &= c^2 \\
+            x^2 + y^2 &= z^2
+        \end{aligned}
+    \end{equation}
+$$
+
+If the equation is related to a parapraph above, do not put a blank line between the paragraph and the `equation` environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
 
 Display equations are numbered by default. The ``align`` environment will number each line of a multi-line equation. One of the ways to give only one equation number to a multi-line equation is to use the ``aligned`` environment inside the ``equation`` environment as shown below:
 
