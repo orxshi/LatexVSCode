@@ -35,38 +35,40 @@ This will produce the following output:
     a^2 + b^2 = c^2
 \end{equation}
 
-For multi-line equations, use the `align` environment as shown below:
+For multi-line equations, use the `align` environment. However, put `\usepackage{amsmath}` in the preamble of your LaTeX document to use the `align` environment:
 
 ```
-\begin{align}
-    a^2 + b^2 &= c^2 \\
-    x^2 + y^2 &= z^2
-\end{align}
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+    \begin{align}
+        a^2 + b^2 &= c^2 \\
+        x^2 + y^2 &= z^2
+    \end{align}
+\end{document}
 ```
 
 This will produce the following output:
 
-\begin{aligned}
-    a^2 + b^2 &= c^2 \\
-    x^2 + y^2 &= z^2
-\end{aligned}
+\begin{equation}
+    \begin{aligned}
+        a^2 + b^2 &= c^2 \\
+        x^2 + y^2 &= z^2
+    \end{aligned}
+\end{equation}
 
-To use the ``align`` environment, you need to include the ``amsmath`` package in the preamble of your LaTeX document. Here is a complete example:
+Another way of writing multi-line equations is to use the `equation` environment with `aligned` environment inside it as shown below:
 
 ```
-    \documentclass{article}
-    \usepackage{amsmath}
-
-    \begin{document}
-
-        Now we can write multi-line equations using the align environment:
-        \begin{align}
-            a^2 + b^2 &= c^2 \\
-            x^2 + y^2 &= z^2
-        \end{align}
-
-    \end{document}
+\begin{equation}
+    \begin{aligned}
+        a^2 + b^2 &= c^2 \\
+        x^2 + y^2 &= z^2
+    \end{aligned}
+\end{equation}
 ```
+
+This way does not require the `amsmath` package.
 
 Beware not to put blank line between the paragraph and the equation/align environment. Otherwise, the equation will not be part of the paragraph and will be separated from it by a vertical space.
 
