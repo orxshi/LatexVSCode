@@ -31,9 +31,11 @@ To write a display equation, put the equation in `equation` environment as shown
 
 This will produce the following output:
 
-\begin{equation}
-    a^2 + b^2 = c^2
-\end{equation}
+$$
+    \begin{equation}
+        a^2 + b^2 = c^2
+    \end{equation}
+$$
 
 For multi-line equations, use the `align` environment. However, put `\usepackage{amsmath}` in the preamble of your LaTeX document to use the `align` environment:
 
@@ -50,12 +52,14 @@ For multi-line equations, use the `align` environment. However, put `\usepackage
 
 This will produce the following output:
 
-\begin{equation}
-    \begin{aligned}
-        a^2 + b^2 &= c^2 \\\\
-        x^2 + y^2 &= z^2
-    \end{aligned}
-\end{equation}
+$$
+    \begin{equation}
+        \begin{aligned}
+            a^2 + b^2 &= c^2 \\
+            x^2 + y^2 &= z^2
+        \end{aligned}
+    \end{equation}
+$$
 
 Another way of writing multi-line equations is to use the `equation` environment with `aligned` environment inside it as shown below:
 
