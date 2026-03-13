@@ -53,12 +53,10 @@ For multi-line equations, use the `align` environment. However, put `\usepackage
 This will produce the following output:
 
 $$
-    \begin{equation}
-        \begin{aligned}
-            a^2 + b^2 &= c^2 \\
-            x^2 + y^2 &= z^2
-        \end{aligned}
-    \end{equation}
+    \begin{align}
+        a^2 + b^2 &= c^2 \\
+        x^2 + y^2 &= z^2
+    \end{align}
 $$
 
 Another way of writing multi-line equations is to use the `equation` environment with `aligned` environment inside it as shown below:
