@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Typing Equations with LaTeX
+title: Equations
 nav_order: 5
-description: "Typing equations with LaTeX"
+description: "Typing equations"
 ---
 
-# Typing equations with LaTeX
+# Equations
 
 There are two types of equations in LaTeX: Inline and display. Inline equations are written within a line of text, while display equations are centered on a new line.
 
@@ -32,7 +32,6 @@ To write a display equation, put the equation in `equation` environment as shown
 This will produce the following output:
 
 $$
-    :label: eq1
     a^2 + b^2 = c^2
 $$
 
@@ -48,7 +47,6 @@ For multi-line equations, use the `align` environment as shown below:
 This will produce the following output:
 
 $$
-    :label: eq2
     \begin{aligned}
         a^2 + b^2 &= c^2 \\
         x^2 + y^2 &= z^2
@@ -88,7 +86,6 @@ Display equations are numbered by default. The ``align`` environment will number
 This will produce the following output:
 
 $$
-    :label: eq3
     \begin{equation}
         \begin{aligned}
             a^2 + b^2 &= c^2 \\
@@ -117,7 +114,7 @@ $$
 $$
 ```
     
-There is one more way of writing display equations using the \[ and \] symbols as shown below:
+There is one more way of writing display equations using the `\[` and `\]` symbols as shown below:
 
 ```
 \[
@@ -125,7 +122,7 @@ There is one more way of writing display equations using the \[ and \] symbols a
 \]
 ```
 
-For inline equations, you can also use the \(...\) symbols as shown below:
+For inline equations, you can also use the `\(` and `\)` symbols as shown below:
 
 ```
 Bla bla bla \( a^2 + b^2 = c^2 \).
