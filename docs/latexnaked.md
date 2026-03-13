@@ -7,7 +7,7 @@ In this section, we will create a minimal LaTeX document and compile it to gener
 - Go to File - Open Folder and select the ``tutorial`` folder you just created
 - Create a new file named ``document.tex`` in the folder (see figure below).
 
-![Creating a new file in VS Code](_static/vscodefile.png)
+![Creating a new file in VS Code](images/vscodefile.png)
 
 Copy and paste the following code into ``document.tex``:
 
@@ -28,12 +28,12 @@ There are different document classes in LaTeX, such as ``article``, ``report``, 
 
 Click the ``Build LaTeX project`` button in the top right corner of VS Code (shown with the red arrow in the figure below). This will compile your LaTeX document and generate a PDF file named ``document.pdf`` in the same folder.
 
-![Building LaTeX project in VS Code](_static/vscodeplay2.png)
+![Building LaTeX project in VS Code](images/vscodeplay2.png)
 
 Notice the PDF and other files generated in the folder in the figure below.
 
-![Generated PDF Files in VS Code](_static/vscodeplay3.png)
+![Generated PDF Files in VS Code](images/vscodeplay3.png)
 
 Click the ``View LaTeX PDF`` button (shown with the red arrow in the figure below) that appears after building the project to view the generated PDF file.
 
-![View LaTeX PDF Button in VS Code](_static/vscodeplay4.png)
+![View LaTeX PDF Button in VS Code](images/vscodeplay4.png)
