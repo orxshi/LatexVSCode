@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plotting in LaTeX
+title: Plotting
 nav_order: 7
 description: "Creating plots in LaTeX using pgfplots"
 ---

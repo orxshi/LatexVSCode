@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Using Copilot in Visual Studio Code
+title: Copilot
 nav_order: 3
 description: "Using GitHub Copilot in Visual Studio Code"
 ---
