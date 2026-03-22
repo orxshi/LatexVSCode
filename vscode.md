@@ -11,7 +11,9 @@ Go to [VSCode website](https://code.visualstudio.com/) and download the installe
 
 # LaTeX extension in VSCode
 
-In VSCode, click on the Extensions icon on the left sidebar (or press `ctrl-shift-x`), search for *LaTeX Workshop*, and click *Install* to install the extension.
+In VSCode, click on the Extensions icon on the left sidebar (or press `ctrl-shift-x`), search for *LaTeX Workshop*, and click *Install* to install the *LaTeX Workshop* extension by James Yu.
+
+![LaTeX Workshop extension](images/vscodelw.png)
 
 # Turning off editor suggestions
 
