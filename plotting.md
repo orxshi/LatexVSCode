@@ -9,20 +9,14 @@ Use ``pgfplots`` to create plots in LaTeX. Copilot will help you write the code 
 
 \begin{document}
 
-    \begin{tikzpicture}
-        \begin{axis}[
-            xlabel={$x$},
-            ylabel={$y$},
-            title={Simple Plot},
-        ]
-        \addplot[color=blue,mark=*] coordinates {
-            (0,0)
-            (1,1)
-            (2,4)
-            (3,9)
-        };
-        \end{axis}
-    \end{tikzpicture}
+\begin{tikzpicture}
+    \begin{axis}[
+        xlabel=$x$,
+        ylabel=$y$,
+    ]
+        \addplot[blue, thick] {x^2};
+    \end{axis}
+\end{tikzpicture}
 
 \end{document}
 ```
