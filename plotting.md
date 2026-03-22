@@ -1,3 +1,10 @@
+---
+layout: default
+title: Plotting in LaTeX
+nav_order: 7
+description: "Creating plots in LaTeX using pgfplots"
+---
+
 # Plotting
 
 Use ``pgfplots`` to create plots in LaTeX. Copilot will help you write the code for the plots from the context of your LaTeX document. Here is the plot of $y = x^2$:

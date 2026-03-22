@@ -1,3 +1,10 @@
+---
+layout: default
+title: Using Copilot in Visual Studio Code
+nav_order: 3
+description: "Using GitHub Copilot in Visual Studio Code"
+---
+
 # Using Copilot in Visual Studio Code
 
 Copilot is an AI-powered code completion tool developed by GitHub. It can assist you in writing code by providing suggestions and autocompletions based on the context of your code. Here's how to use Copilot in Visual Studio Code (VS Code):
